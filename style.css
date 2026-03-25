@@ -1,0 +1,48 @@
+** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    box-shadow: 5px 5px black;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+#india {
+    background: linear-gradient(to bottom, orange 33%, white 33% 66%, green 66%);
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+footer {
+    text-align: center;
+}
